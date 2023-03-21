@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController {
     @Autowired
     ProductService productService;
-
+//This is a get call 
     @GetMapping(value = "create-product")
     public ResponseEntity<String> createProduct(@RequestBody String requestData){
 
